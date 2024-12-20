@@ -40,6 +40,10 @@ const About = () => {
                 <li>
                   Priority values: 4, 3, 1, 5, 2 (lowest value = highest
                   priority)
+                  <strong>
+                    *Priority is not actually needed in these algorithms but we
+                    still included the priority field just as a placeholder
+                  </strong>
                 </li>
                 <li>Context switch: 2ms</li>
               </ul>

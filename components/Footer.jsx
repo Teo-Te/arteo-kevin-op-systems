@@ -60,7 +60,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full border-t border-white/20 py-6 px-8 bg-white/50 backdrop-blur-lg">
+    <footer className="w-full border-t border-white/20 py-6 px-2 md:px-8 bg-white/50 backdrop-blur-lg">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Left Side - Logo */}
@@ -95,7 +95,7 @@ const Footer = () => {
           </div>
 
           {/* Right Side - Team Members */}
-          <div className="flex gap-8 items-center justify-end flex-wrap">
+          <div className="flex gap-6 items-center justify-end flex-wrap">
             {team.map((member) => (
               <div
                 key={member.name}

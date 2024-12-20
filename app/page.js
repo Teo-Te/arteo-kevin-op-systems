@@ -25,6 +25,11 @@ const HomePage = () => {
   const [isDelaySet, setIsDelaySet] = useState(false);
 
   const addProcess = () => {
+    if (arrivalTime === "" || burstTime === "" || priority === "") {
+      setArrivalTime(0);
+      setBurstTime(0);
+      setPriority(0);
+    }
     setProcesses([
       ...processes,
       {
@@ -45,11 +50,17 @@ const HomePage = () => {
   };
 
   const handleFCFS = () => {
+    if (csDelay === "") {
+      setCsDelay(0);
+    }
     const result = fcfs(processes, csDelay);
     setResultsFCFS(result);
   };
 
   const handleSJFPreemptive = () => {
+    if (csDelay === "") {
+      setCsDelay(0);
+    }
     const result = sjfPreemptive(processes, csDelay);
     setResultsSJF(result);
   };
