@@ -49,7 +49,7 @@ const ResultsTable = ({ title, processes, avgWT, totalTAT, algorithm }) => {
         layout="fixed"
       >
         <TableHeader>
-          <TableColumn>PROCESS</TableColumn>
+          <TableColumn>PID</TableColumn>
           <TableColumn>T.A.T</TableColumn>
           <TableColumn>W.T</TableColumn>
         </TableHeader>

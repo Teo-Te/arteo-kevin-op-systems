@@ -65,8 +65,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Left Side - Logo */}
           <div className="flex items-center gap-2">
-            <Logo />
-            <p className="font-bold text-inherit">Operating Systems</p>
+            <Link href="/" className="text-black">
+              <Logo />
+              <p className="font-bold text-inherit">Operating Systems</p>
+            </Link>
           </div>
 
           {/* Center - Navigation */}

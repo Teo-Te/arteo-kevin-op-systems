@@ -221,7 +221,7 @@ const HomePage = () => {
             layout="fixed"
           >
             <TableHeader>
-              <TableColumn>PROCESS</TableColumn>
+              <TableColumn>PID</TableColumn>
               <TableColumn>A.T</TableColumn>
               <TableColumn>B.T</TableColumn>
               <TableColumn>P</TableColumn>

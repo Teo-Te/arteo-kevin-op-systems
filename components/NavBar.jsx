@@ -52,8 +52,10 @@ const NavBar = () => {
   return (
     <Navbar>
       <NavbarBrand>
-        <Logo />
-        <p className="font-bold pl-2 text-inherit">Opearting Systems</p>
+        <Link href="/" className="text-black">
+          <Logo />
+          <p className="font-bold pl-2 text-inherit">Opearting Systems</p>
+        </Link>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
